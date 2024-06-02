@@ -6,3 +6,12 @@
     margin-right: 0px;
   }
 }
+
+.background {
+  background-image: url('../Assests/Quotemarks-left.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5%; 
+  opacity: 1; 
+  position: relative;
+}

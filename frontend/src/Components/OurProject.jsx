@@ -60,7 +60,7 @@ const OurProject = () => {
               onClick={() => handleClick(index)}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
-              className={`cursor-pointer p-2.5 bg-gray-200 text-black  ${hoveredIndex === index ? 'bg-red-500' : ''}`}
+              className={`cursor-pointer p-2.5 bg-gray-100 text-black rounded-sm ${hoveredIndex === index ? 'bg-red-500 hover:shadow-lg' : ''}`}
               style={{ zIndex: hoveredIndex === index ? 1 : 'auto' }}
             >
             <div className='hover:text-white'>
