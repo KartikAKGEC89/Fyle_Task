@@ -36,7 +36,7 @@ const WhatWedo = () => {
   };
 
   return (
-    <div className='flex justify-center flex-col'>
+    <div className='flex justify-center flex-col bg-slate-50'>
       <div className='flex flex-row justify-center textcontent'>
         <div className='pt-16'>
           <span className='text-3xl text-pink-700 font-semibold mr-96'>What we do</span>
