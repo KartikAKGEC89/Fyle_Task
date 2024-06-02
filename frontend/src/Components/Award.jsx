@@ -59,7 +59,7 @@ const Award = () => {
                 id="comments"
                 name="comments"
                 type="checkbox"
-                className="h-4 w-4 rounded border-gray-300 text-pink-600 focus:ring-pink-600"
+                className="h-4 w-4 rounded border-gray-300 text-red-600 focus:ring-red-600"
               />
             </div>
             <div className="text-sm leading-6">
@@ -70,7 +70,7 @@ const Award = () => {
           </div>
           <button
             type="button"
-            className="bg-pink-700 text-white p-4 mt-6 w-full"
+            className="bg-red-500 text-white p-4 mt-6 w-full"
             onClick={handleContactUs}
           >
             CONTACT US
@@ -81,14 +81,14 @@ const Award = () => {
       ) : (
       <div  className='flex justify-center Hero'>
         <div className='pt-24 px-4'>
-            <span className='text-2xl text-pink-700 font-semibold'>AWARD WINNING</span>
+            <span className='text-2xl text-red-500 font-semibold'>AWARD WINNING</span>
             <p className='text-6xl font-bold pt-4'>DIGITAL MARKETING</p>
             <p className='text-6xl font-bold pb-6'>AGENCY</p>
             <p className='pre'>Morbi sed lacus nec risus finibus feugiat et</p>
             <p className='pre'>fermentum nibh. Pellentesque vitae ante at elit</p>
             <p className='pre'>fringilla ac at purus, Morbi sed lacus nec risus finibus</p>
             <p className='pre'>feugiat et fermentum</p>
-            <button className='bg-pink-700 text-white p-4 mt-6' onClick={handleOpenModal}>CONTACT US</button>
+            <button className='bg-red-500 text-white p-4 mt-6' onClick={handleOpenModal}>CONTACT US</button>
         </div>
         <div>
             <img src={Hero} alt='Main Pic'  className=' w-11/12 p-9'/>

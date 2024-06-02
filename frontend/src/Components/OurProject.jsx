@@ -44,7 +44,7 @@ const OurProject = () => {
   return (
     <>
       <div className='w-full text-center'>    
-        <p className='text-pink-500 font-semibold text-xl my-4'>OUR PROJECT</p>
+        <p className='text-red-500 font-semibold text-xl my-4'>OUR PROJECT</p>
         <p className='text-4xl font-bold'>WHY WE ARE BEST</p>
       </div>
       <div className='flex flex-wrap items-center justify-center mt-4 mb-2'>

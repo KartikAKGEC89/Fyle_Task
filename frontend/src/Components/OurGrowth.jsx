@@ -8,7 +8,7 @@ const OurGrowth = () => {
   return (
     <div className='bg-slate-50'>
       <div className='w-full text-center'>    
-        <p className='text-pink-500 font-semibold text-xl pt-12 mb-2'>EXPERT GROWTHS</p>
+        <p className='text-red-500 font-semibold text-xl pt-12 mb-2'>EXPERT GROWTHS</p>
         <p className='text-4xl font-bold'>OUR COMPANY GROWTH</p>
       </div>
       <div className='flex flex-wrap justify-center my-6 gap-6'>

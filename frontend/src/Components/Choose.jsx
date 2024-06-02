@@ -8,7 +8,7 @@ const Choose = () => {
   return (
     <>
       <div className='w-full text-center'>    
-        <p className='text-pink-500 font-semibold text-xl my-4'>WHY CHOOSE US</p>
+        <p className='text-red-500 font-semibold text-xl my-4'>WHY CHOOSE US</p>
         <p className='text-4xl font-bold'>WHY WE ARE BEST</p>
       </div>
       <div className='flex flex-wrap justify-center my-6 gap-6'>

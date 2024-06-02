@@ -39,7 +39,7 @@ const WhatWedo = () => {
     <div className='flex justify-center flex-col bg-slate-50'>
       <div className='flex flex-row justify-center textcontent'>
         <div className='pt-16'>
-          <span className='text-3xl text-pink-700 font-semibold mr-96'>What we do</span>
+          <span className='text-3xl text-red-500 font-semibold mr-96'>What we do</span>
           <p className='text-5xl font-bold pt-8 mr-96'>
             SERVICE PROVIDE
           </p>
@@ -74,7 +74,7 @@ const WhatWedo = () => {
         {images.slice(0, images.length / 2).map((_, index) => (
           <button
             key={index}
-            className={`w-4 h-4 rounded-full mb-4 ${index === currentIndex ? 'bg-pink-700' : 'bg-gray-400'}`}
+            className={`w-4 h-4 rounded-full mb-4 ${index === currentIndex ? 'bg-red-500' : 'bg-gray-400'}`}
             onClick={() => goToSlide(index)}
           />
         ))}
