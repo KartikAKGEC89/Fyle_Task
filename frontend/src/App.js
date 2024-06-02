@@ -3,6 +3,7 @@ import Award from './Components/Award'
 import WhatWedo from './Components/WhatWedo'
 import Choose from './Components/Choose'
 import OurProject from './Components/OurProject'
+import OurGrowth from './Components/OurGrowth'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <WhatWedo />
       <Choose />
       <OurProject />
+      <OurGrowth />
     </div>
   )
 }
